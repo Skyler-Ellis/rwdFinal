@@ -1,1 +1,21 @@
+.header{
+    text-align: center;
+}
 
+.container{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    column-gap: 1em;
+}
+
+.left{
+    
+
+}
+ol{
+    list-style-type: lower-roman;
+}
+
+footer{
+grid-row-end: 4;
+}
