@@ -8,12 +8,17 @@
     column-gap: 1em;
 }
 
-.left{
-    
+.navbar{
+    text-align: right;
+    padding-right: 1em;
+    margin-right: 1em;
+}
 
+.mid{
+    text-align: center
 }
 ol{
-    list-style-type: lower-roman;
+    list-style-type: ;
 }
 
 footer{
