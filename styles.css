@@ -1,5 +1,14 @@
+/* basic design */
+body{
+    background: #3366A1;
+    color: white;
+}
+
 .header{
     text-align: center;
+    background-color: #0d0dd3;
+    color: white;
+    border: 1em solid gold;
 }
 
 .container{
@@ -7,20 +16,64 @@
     grid-template-columns: 25% 50% 25%;
     column-gap: 1em;
 }
-
+/* navbar */
 .navbar{
     text-align: right;
-    padding-right: 1em;
-    margin-right: 1em;
+    padding-right: 0;
+    padding-top: 0%;
+    margin-top: 0%;
+    height: 100%;
+    position: fixed;
+    left: 90%;
+    overflow: auto; 
 }
-
+/* middle section */
+.header-mid{
+    text-align: center;
+    background-color: #0d0dd3;
+    color: white; 
+   padding: 1em;
+}
 .mid{
-    text-align: center
+    text-align: center;
+    padding: 1em;
+    border: #0d0dd3 solid 1em;
+    
 }
-ol{
-    list-style-type: ;
+/* fonts */
+ .heading-text{ 
+    font-family: 'Poppins';
+    
+    
 }
-
+.body-text{ 
+    font-family: 'Bree Serif' ;
+    font-size: 1em;
+    line-height: 175%;
+}
+/* footer */
 footer{
-grid-row-end: 4;
+    grid-row: 4/5;  
+}
+.footer{
+    text-align: center;
+    background-color: #0d0dd3;
+    color: white;
+    padding: 1em 10em;
+    border: gold solid 1em;
+}
+/* buttons */
+button{
+    width: 10em;
+    background-color: #0d0dd3;
+    color: white;
+    border: gold solid;
+}
+button:hover{
+    background-color: white;
+    color:#0d0dd3;
+}
+button:active{
+    background-color: white;
+    color:#0d0dd3;
 }
